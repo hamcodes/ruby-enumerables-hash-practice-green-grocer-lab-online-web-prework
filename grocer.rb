@@ -52,6 +52,6 @@ def checkout(cart, coupons)
       cart[discount][:count] += coupon[:num]
       
 
-
+end
 end
 
