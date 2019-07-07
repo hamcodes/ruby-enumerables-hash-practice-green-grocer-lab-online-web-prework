@@ -57,6 +57,6 @@ def checkout(cart, coupons)
     total += cart_with_discounts_applied[item][:price]*cart_with_discounts_applied[item][:count]
   end
   total > 100.00 ? (total * 0.90).round : total
-end
+
 end
 end
