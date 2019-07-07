@@ -47,6 +47,7 @@ end
 
 
 def checkout(cart, coupons)
+  cart.keys.each do 
 
 
 end
