@@ -49,6 +49,7 @@ end
 def checkout(cart, coupons)
   consolidate_cart.keys.each do |item|
     if cart[item.keys[0]]
+      cart[discount][:count] += coupon[:num]
       
 
 
