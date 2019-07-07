@@ -51,7 +51,8 @@ def checkout(cart, coupons)
     if cart[item.keys[0]]
       cart[discount][:count] += coupon[:num]
       
-
+  end
 end
+ updated_cart
 end
 
