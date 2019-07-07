@@ -47,7 +47,9 @@ end
 
 
 def checkout(cart, coupons)
-  cart.keys.each do 
+  consolidate_cart.keys.each do |item|
+    if cart[item.keys[0]]
+      
 
 
 end
